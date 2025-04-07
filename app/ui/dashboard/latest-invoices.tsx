@@ -21,8 +21,7 @@ export default async function LatestInvoices() {
                                 key={invoice.id}
                                 className={clsx('flex flex-row items-center justify-between py-4', {
                                     'border-t': i !== 0,
-                                })}
-                            >
+                                })}>
                                 <div className='flex items-center'>
                                     <Image
                                         src={invoice.image_url}
