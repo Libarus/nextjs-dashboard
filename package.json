@@ -4,7 +4,8 @@
         "build": "next build",
         "dev": "next dev --turbopack",
         "start": "next start",
-        "format": "prettier --write \"app/**/*.ts\" \"app/**/*.tsx\" \"**/*.json\""
+        "format": "prettier --write \"app/**/*.ts\" \"app/**/*.tsx\" \"**/*.json\"",
+        "lint": "next lint"
     },
     "dependencies": {
         "@heroicons/react": "^2.2.0",
@@ -28,6 +29,8 @@
         "@types/node": "22.10.7",
         "@types/react": "19.0.7",
         "@types/react-dom": "19.0.3",
+        "eslint": "^9",
+        "eslint-config-next": "15.2.4",
         "prettier": "^3.5.3"
     },
     "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
